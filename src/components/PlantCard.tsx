@@ -31,7 +31,7 @@ const PlantCard: React.FC<PlantCardProps> = ({ plant }) => {
       <div className="p-5">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-lg font-semibold text-gray-800">{plant.name}</h3>
-          <span className="text-lg font-medium text-green-700">${plant.price.toFixed(2)}</span>
+          <span className="text-lg font-medium text-green-700">{plant.price.toFixed(2)} F CFA</span>
         </div>
         <p className="text-sm text-gray-500 mb-3">{plant.category}</p>
         <p className="text-sm text-gray-600 mb-4 line-clamp-2">{plant.description}</p>

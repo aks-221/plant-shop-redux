@@ -35,7 +35,7 @@ const Header: React.FC = () => {
     >
       <div className="container-custom flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <h1 className={`text-2xl font-serif font-bold transition-colors ${
+          <h1 className={`text-2xl font-serif font-bold transition-colors F CFA{
             isScrolled || location.pathname !== '/' ? 'text-green-800' : 'text-white'
           }`}>
             GreenHaven
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <Link 
             to="/" 
-            className={`font-medium transition-colors ${
+            className={`font-medium transition-colors F CFA{
               isScrolled || location.pathname !== '/' ? 'text-gray-700 hover:text-green-600' : 'text-white hover:text-green-100'
             }`}
           >
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
           </Link>
           <Link 
             to="/products" 
-            className={`font-medium transition-colors ${
+            className={`font-medium transition-colors F CFA{
               isScrolled || location.pathname !== '/' ? 'text-gray-700 hover:text-green-600' : 'text-white hover:text-green-100'
             }`}
           >

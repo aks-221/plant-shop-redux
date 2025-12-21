@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen bg-neutral-50 flex flex-col">
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow pt-24">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/products" element={<ProductsPage />} />
